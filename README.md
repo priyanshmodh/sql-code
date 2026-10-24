@@ -29,3 +29,15 @@ SELECT
 FROM sales_performance_data
 GROUP BY Customer_ID, Customer_Name
 ORDER BY Total_Sales DESC;
+
+
+SELECT COUNT(*) AS Total_Customer FROM sales_performance_data
+
+
+SELECT MAX(Salary) AS HighestSalary FROM sales_performance_data;
+
+
+SELECT MIN(Salary) AS LowestSalary FROM sales_performance_data;
+
+
+SELECT AVG(Salary) AS AverageSalary FROM sales_performance_data;
